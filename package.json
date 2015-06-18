@@ -1,0 +1,20 @@
+{
+  "name": "two-factor",
+  "version": "0.1.0",
+  "description": "Generates totp or hotp codes for two factor authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Suttell <isaac@isaacsuttell.com>",
+  "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/isuttell/two-factor.git"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "qr-image": "^3.1.0",
+    "thirty-two": "0.0.2"
+  }
+}
